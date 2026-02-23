@@ -7,7 +7,8 @@ log/
 .colcon_install_layout
 
 # IDE and editor files
-# .vscode/
+.vscode/
+!.vscode/launch.json
 .idea/
 *.swp
 *.swo
