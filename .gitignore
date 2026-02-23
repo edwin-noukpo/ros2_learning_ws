@@ -9,6 +9,7 @@ log/
 # IDE and editor files
 .vscode/
 !.vscode/launch.json
+.vscode/browse.vc.db
 .idea/
 *.swp
 *.swo
