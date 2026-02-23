@@ -1,6 +1,6 @@
-#include "../include/my_package/p_node.hpp"
+#include "../include/my_package/publisher_node.hpp"
 
-pNode::pNode() : rclcpp::Node("p_node"), _count(0)
+pNode::pNode() : rclcpp::Node("publisher_node"), _count(0)
 {
     _publisher_node = this->create_publisher<std_msgs::msg::String>("my_topic", 10);
     _p_timer = this->create_wall_timer(

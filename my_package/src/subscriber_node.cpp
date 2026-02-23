@@ -1,6 +1,6 @@
-#include "../include/my_package/s_node.hpp"
+#include "../include/my_package/subscriber_node.hpp"
 
-sNode::sNode() : rclcpp::Node("s_node")
+sNode::sNode() : rclcpp::Node("subscriber_node")
 {
     _subscriber_node = this->create_subscription<std_msgs::msg::String>(
         "my_topic",
