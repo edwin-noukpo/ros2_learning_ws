@@ -8,8 +8,9 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(example_interfaces REQUIRED)
 
-set(dependencies rclcpp std_msgs)
+set(dependencies rclcpp std_msgs example_interfaces)
 set(node_names service_node client_node subscriber_node publisher_node my_node)
 
 foreach(node ${node_names})
