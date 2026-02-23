@@ -1,0 +1,30 @@
+ros2 pkg list:
+C'est une commande qui permet de lister tous les packets presents sur humble
+
+ros2 pkg executables
+c'est une commande qui permet de lister tous les executable presents sur humble
+
+ros2 pkg exectuable <name of package>
+c'est une commande qui permet de lister les binaire associe a un package
+
+rqt
+de ce que j'ai pu comprendre pour le moment, rqt permet d'agir graphiquement sur les topics d'un package (plugins > services > services_call)
+
+ros2 node list
+permet d'avoir la liste des noeuds en cours d'execution
+
+ros2 node info <name of node>
+permet d'avoir des informations par rapport a un noeud donnee
+
+ros2 topic list
+permet de voir la liste des differents topic
+
+ros2 topic list -t
+de ce que je suis entrain de voir, elle permet d'avoir le type de message renvoyee par le topic
+
+rqt_graph
+est une commande qui permet de voir la liaison et la relation des topic avec les noeuds
+
+ros2 topic pub/--once <topic_name> <msg_type>
+c'est une commande qui permet d'envoyer un message a travers un topic
+
